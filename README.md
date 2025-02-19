@@ -120,7 +120,9 @@ If you want to use a YAML-based API documentation:
 
 **Known Limitations**
 -The AWS Bedrock code path is present but not tested (no AWS key available).
+
 -The quality of the generated agent code depends on the LLM’s capabilities.
+
 -That’s it! If you have any further questions or run into issues, please open an issue or contact me.
 
 Khushpreet Singh
