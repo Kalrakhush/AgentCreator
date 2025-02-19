@@ -1,8 +1,8 @@
 import os
-from agent import AgentCreator
-from llm_plugin import get_llm_plugin
-from custom_logging import setup_logger
-from api_parser import APIDocParser
+from src.agent import AgentCreator
+from src.llm_plugin import get_llm_plugin
+from src.custom_logging import setup_logger
+from src.api_parser import APIDocParser
 
 logger = setup_logger(__name__)
 
@@ -29,7 +29,7 @@ def get_file_name_from_doc(api_doc_filename: str) -> str:
 def main():
     try:
         # Specify the API documentation file name in main only.
-        api_doc_filename = "text.txt"  # change to "api_documentation.yml" if using YAML
+        api_doc_filename = "testdoc.txt"  # change to "api_documentation.yml" if using YAML
         
         # If the file is YAML, parse it with APIDocParser; otherwise, load it as plain text.
         if api_doc_filename.endswith((".yml", ".yaml")):

@@ -1,0 +1,7 @@
+2025-02-19 15:10:01,357 - __main__ - ERROR - testdoc.txt not found.
+2025-02-19 15:10:01,357 - __main__ - ERROR - Workflow failed: testdoc.txt not found.
+2025-02-19 15:10:28,922 - __main__ - INFO - Loaded API documentation.
+2025-02-19 15:10:40,987 - src.agent - INFO - Generated agent code successfully.
+2025-02-19 15:10:40,993 - __main__ - INFO - Created 'agents' folder for saving generated agents.
+2025-02-19 15:10:40,993 - src.agent - INFO - Agent code saved to C:\Users\15038\Desktop\AgentCreator\agents\generated_agent_testdoc.py
+2025-02-19 15:10:40,993 - __main__ - INFO - Agent saved as: C:\Users\15038\Desktop\AgentCreator\agents\generated_agent_testdoc.py

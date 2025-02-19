@@ -1,7 +1,7 @@
 import re
 from typing import Optional
-from llm_plugin import LLMPlugin
-from custom_logging import setup_logger
+from src.llm_plugin import LLMPlugin
+from src.custom_logging import setup_logger
 
 logger = setup_logger(__name__)
 

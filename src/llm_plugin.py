@@ -8,7 +8,7 @@ import requests
 import boto3
 import google.generativeai as genai
 from abc import ABC, abstractmethod
-from config import (
+from src.config import (
     GOOGLE_API_KEY,
     AWS_BEDROCK_MODEL_ID,
     AWS_REGION,

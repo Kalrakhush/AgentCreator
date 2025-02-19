@@ -24,4 +24,4 @@ black  # Code formatting
 flake8  # Linter for Python code quality
 isort  # Sort imports automatically
 
-phidata
+pytest

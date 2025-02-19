@@ -1,5 +1,5 @@
 import yaml
-from custom_logging import setup_logger
+from src.custom_logging import setup_logger
 
 logger = setup_logger(__name__)
 
