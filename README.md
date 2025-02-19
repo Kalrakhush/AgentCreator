@@ -50,23 +50,20 @@ AWS Bedrock: Requires AWS credentials and the Bedrock model ID.
 **1. Clone the Repository**
 
 ```bash
-Copy
-Edit
+
 git clone https://github.com/your_username/agent-creator.git
 cd agent-creator
 ```
 
 **2. Create and Activate a Virtual Environment**
 ```bash
-Copy
-Edit
+
 python -m venv venv
 ```
 
 **3. Install Dependencies**
 ```bash
-Copy
-Edit
+
 pip install -r requirements.txt
 ```
 
@@ -78,8 +75,7 @@ In the project root, create a .env file to specify your LLM provider and API key
 
 Run agent_creator.py
 ```bash
-Copy
-Edit
+
 python agent_creator.py
 ```
 
@@ -89,16 +85,14 @@ This script reads testdoc.txt by default as the API documentation. It sends the 
 Inside the agents/ folder, you’ll find the newly created file, for example:
 
 ```plaintext
-Copy
-Edit
+
 agents/
 └── generated_agent_testdoc.py
 ```
 
 **Test the Generated Agent**
 ```bash
-Copy
-Edit
+
 python agents/generated_agent_testdoc.py
 ```
 
