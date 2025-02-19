@@ -75,16 +75,17 @@ This script reads testdoc.txt by default as the API documentation.
 It sends the content to the chosen LLM (Gemini or AWS Bedrock).
 It generates agent code and saves it to agents/generated_agent_testdoc.py (if the doc is named testdoc.txt).
 
-Check the Generated Agent:
+**Check the Generated Agent:**
 
 Inside the agents/ folder, you’ll find the newly created file, for example:
 
 agents/
 └── generated_agent_testdoc.py
 
-Test the Generated Agent:
+**Test the Generated Agent:**
 
 python agents/generated_agent_testdoc.py
+
 This confirms the agent code is runnable. The agent’s functionality depends on how the LLM interprets the documentation.
 
 **Logs:**
