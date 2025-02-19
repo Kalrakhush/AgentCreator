@@ -1,0 +1,27 @@
+# Core dependencies
+python-dotenv
+google-generativeai  # Google Gemini API SDK
+boto3  # AWS SDK for Bedrock integration
+requests  # HTTP requests library
+
+# Logging & Debugging
+rich  # Enhanced logging and debugging
+
+# Configuration & Environment Management
+python-dotenv  # Load environment variables from .env file
+
+# Async & Concurrency (if needed for optimization)
+asyncio  # Asynchronous programming
+aiohttp  # Async HTTP client
+
+# Code Parsing & Processing (if working with API documentation)
+beautifulsoup4  # HTML/XML parsing (for API docs processing)
+lxml  # Faster XML/HTML parser
+PyYAML  # YAML parser (for API docs in YAML)
+
+# Development Tools
+black  # Code formatting
+flake8  # Linter for Python code quality
+isort  # Sort imports automatically
+
+phidata
