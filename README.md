@@ -113,6 +113,7 @@ If you want to use a YAML-based API documentation:
 -If the file ends with .yml or .yaml, api_parser.py will automatically parse and validate it.
 
 **Known Limitations**
+
 -The AWS Bedrock code path is present but not tested (no AWS key available).
 
 -The quality of the generated agent code depends on the LLM’s capabilities.
@@ -120,4 +121,5 @@ If you want to use a YAML-based API documentation:
 -That’s it! If you have any further questions or run into issues, please open an issue or contact me.
 
 Khushpreet Singh
+
 Email: khushpreets016@gmail.com
