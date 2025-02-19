@@ -54,11 +54,12 @@ AGENTCREATOR/
    cd agent-creator
 
 **Create and Activate a Virtual Environment:**
-   ```bash
+
+   
    python -m venv venv
 
 **Install Dependencies:**
-   ```bash
+   
    pip install -r requirements.txt
 
 
@@ -70,7 +71,7 @@ See the sample given in repository
 **Usage**
 Run agent_creator.py:
 
-   ```bash
+  
    python agent_creator.py
 
 This script reads testdoc.txt by default as the API documentation.
@@ -86,7 +87,7 @@ agents/
 
 **Test the Generated Agent
 
-   ```bash
+  
    python agents/generated_agent_testdoc.py
 
 This confirms the agent code is runnable. The agent’s functionality depends on how the LLM interprets the documentation.
